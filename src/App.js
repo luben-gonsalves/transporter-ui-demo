@@ -23,7 +23,7 @@ function App() {
               <Button type="primary">Request Demo</Button>
             </Menu.Item>
             <Menu.Item key="5" style={{ float: "right" }}>
-              <MessageFilled />
+              <MessageFilled style={{ fontSize: "20px", marginTop: "24px" }} />
             </Menu.Item>
           </Menu>
         </Header>

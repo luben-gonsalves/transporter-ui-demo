@@ -13,8 +13,8 @@ const ProductFeatures = () => {
     <div style={{ margin: "20px 0px" }}>
       <h3 style={{ marginBottom: "40px" }}>Product Features</h3>
       <SpaceBetween>
-        {features.map((f) => (
-          <FeatureCard>
+        {features.map((f, i) => (
+          <FeatureCard key={i}>
             <h4>{f}</h4>
             <p>On-demand Delivery</p>
             <p>Same-day/Next-day Delivery</p>

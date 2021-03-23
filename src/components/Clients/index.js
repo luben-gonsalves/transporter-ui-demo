@@ -15,8 +15,8 @@ const Clients = () => {
     <div style={{ margin: "20px 0px" }}>
       <h3>Clientele</h3>
       <Row gutter={[16, 16]} justify="center" style={{ marginTop: "20px" }}>
-        {clients.map((c) => (
-          <Col xs={24} md={12} xl={4} lg={4}>
+        {clients.map((c, i) => (
+          <Col xs={24} md={12} xl={4} lg={4} key={i}>
             <ClientCard>{c}</ClientCard>
           </Col>
         ))}
